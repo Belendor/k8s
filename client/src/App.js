@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            OMG it Works? Updated2
+            OMG it Works? Updated3
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>

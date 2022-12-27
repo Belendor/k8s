@@ -1,0 +1,20 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: belendor-site-tls
+spec:
+  secretName: belendor-site
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: belendor.site
+  dnsNames:
+    - belendor.site
+    - www.belendor.site
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        domains:
+          - belendor.site
+          - www.belendor.site

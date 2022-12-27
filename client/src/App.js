@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            OMG it Works? Updated5
+            Scroll Down to calculate fibonacci
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
